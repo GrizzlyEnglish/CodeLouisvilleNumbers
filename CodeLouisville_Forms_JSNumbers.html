@@ -1,0 +1,72 @@
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+        <style>
+            .testClass {
+                background-color: brown;
+            }
+        </style>
+
+    <script type="text/javascript">
+
+        function weirdStuff() {
+            //for (//defines var;//how many times;//how to increase)
+
+            for (let i = 5; i > 0; i--) {
+                console.log("Top loop " + i);
+
+                for (let i = 0; i < 5; i++) {
+                    console.log("Bottom loop " + i);
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <ul>
+        <li>
+            <label>H</label>
+        </li>
+        <li>
+            <label>H</label>
+        </li>
+        <li>
+            <label>H</label>
+        </li>
+        <li>
+            <label>H</label>
+        </li>
+    </ul>
+
+    <div class="container">
+        <form id="myForm" submit="/api/login">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label testClass">Email address</label>
+                <select>
+                    <optgroup label="Gmail" />
+                    <option>baba@gmail.com</option>
+                    <optgroup label="outlook" />
+                    <option>baba@outlook.com</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <input type="radio" name="test" value="apples"/> Test 1
+                <input type="radio" name="test" /> Test 2
+                <input type="radio" name="test" /> Test 3
+                <input type="radio" name="test" /> Test 4
+
+                test = apples
+            </div>
+
+            <button type="submit">
+
+            </button>
+        </form>
+    </div>
+
+
+</body>
